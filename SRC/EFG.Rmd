@@ -1,0 +1,19 @@
+---
+title: '123'
+author: "ZHOU"
+date: "2019年6月12日"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+```{r}
+
+library(readr)
+ABC <- read_csv("~/data mining/new_TEMP/DATA/ABC.txt")
+View(ABC)
+
+```
+
+
